@@ -1,3 +1,16 @@
+Install the Go lang software
+https://go.dev/doc/install
+
+In visual studio code install,
+go, tabnine from extensions
+
+Use below command to run the API
+go run main.go
+
+---
+
+Api Endpoints - details
+
 1. Software Details API
 
 Endpoint: /software-details
@@ -20,3 +33,5 @@ Method: POST
 Endpoint: /servicenow-tickets
 Method: GET
 Parameters: username
+
+---
