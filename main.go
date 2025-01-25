@@ -6,6 +6,7 @@ import (
 	"net/http"
 )
 
+
 func main() {
 	http.HandleFunc("/software-details", handleSoftwareDetails)
 	http.HandleFunc("/autocomplete", handleAutocomplete)
