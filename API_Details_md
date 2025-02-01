@@ -30,3 +30,12 @@ Response
 
 ***********************************
 Software Package
+
+curl -X 'GET' \
+  'https://localhost:7241/api/CMDB?assignedTo=Alain%20Vizzini'
+  -H 'accept: */*'
+[{"name":"Python 3.12.8","short_description":"開発ツール/Development Tools\r\n","sys_id":"1556f0359786fd10aeb7b0c3f153afef","ADGroupName":"GRAPAC-JP-PYTHON-EN"},
+{"name":"Python 3.11","short_description":"開発ツール/Development Tools\r\n","sys_id":"40dd22eec3728a941e1d14a4e40131ea","ADGroupName":"GRAPAC-JP-PYTHON311-EN"}]
+
+
+*********************
