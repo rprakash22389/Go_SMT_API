@@ -1,1 +1,32 @@
+Autocompelte API : 
+curl -X 'GET' \
+  'https://localhost:7241/api/ActiveDirectory/autocomplete?query=Mina' \
+  -H 'accept: */*'
 
+
+Response
+
+[
+  {
+    "description": "Minami Fujii",
+    "mail": "minami.fujii@test.co.jp",
+    "samAccountName": "SDF334",
+    "userPrincipalName": "SDF334@insim.biz"
+  },
+  {
+    "description": "Minami Nakanishi",
+    "mail": "minami.nakanishi@test.co.jp",
+    "samAccountName": "SDF33W",
+    "userPrincipalName": "SDF33W@insim.biz"
+  },
+  {
+    "description": "Mina Kojima",
+    "mail": "mina.kojima@test.co.jp",
+    "samAccountName": "SDFSFE",
+    "userPrincipalName": "SDFSFE@insim.biz"
+  }
+]
+
+
+***********************************
+Software Package
